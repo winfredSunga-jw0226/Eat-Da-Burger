@@ -1,27 +1,39 @@
 h3 {
   margin-left : 20px;
+  font-family: 'Permanent Marker','Indie Flower', cursive;
 }
 
-#div-not-devoured-container {
-  border : 1px solid black;
-}
-
-.div-devoured-container {
-  border : 1px solid black;
+p {
+  font-family: 'Amatic SC', cursive;
+  font-size : 25px;
 }
 
 .p-burger-not-devoured {
   float : left;
   font-weight: bold
+  border : 1px solid gray;
+  width : 65%;
+  background-color : #94eeb1;
+  color : black;
+}
+
+.p-burger-devoured {
+  border : 1px solid gray;
+  width : 100%;
+  background-color: #f5dd7c;
+  color : #9a9daa;
 }
 
 .button-burger-not-devoured {
   float : right;
-  margin-right : 30px;
-  width : 120px;
+  width : 30%;
 }
 
 .div-burger-not-devoured {
   clear : both;
+}
+
+#div-form {
+  margin-top : 30px;
 }
 

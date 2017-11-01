@@ -19,7 +19,7 @@
         {{#each burgers}}
           {{#unless devoured}}
             <div class="div-burger-not-devoured">
-              <p class="p-burger-not-devoured">{{this.burger_name}}</p>
+              <p class="p-burger-not-devoured">{{this.id}} . {{this.burger_name}}</p>
               <button class="button-burger-not-devoured" data-burgerid="{{this.id}}">Devour It!</button>
             </div>
           {{/unless}}
@@ -32,7 +32,7 @@
         {{#each burgers}}
           {{#if devoured}}
             <div class="div-burger-devoured">
-              <p class="p-burger-devoured">{{this.burger_name}}</p>
+              <p class="p-burger-devoured">{{this.id}} . {{this.burger_name}}</p>
             </div>
           {{/if}}
         {{/each}}
