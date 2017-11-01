@@ -1,4 +1,4 @@
-var connection = require("./connection.js");
+var connection = require("../config/connection.js");
 
 //Object for all SQL statement function needed in this app
 var orm = {

@@ -1,0 +1,27 @@
+h3 {
+  margin-left : 20px;
+}
+
+#div-not-devoured-container {
+  border : 1px solid black;
+}
+
+.div-devoured-container {
+  border : 1px solid black;
+}
+
+.p-burger-not-devoured {
+  float : left;
+  font-weight: bold
+}
+
+.button-burger-not-devoured {
+  float : right;
+  margin-right : 30px;
+  width : 120px;
+}
+
+.div-burger-not-devoured {
+  clear : both;
+}
+

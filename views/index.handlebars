@@ -1,3 +1,50 @@
-<img src="../public/assets/img/burger.jpg" alt="burger image">
+\<div class="jumbotron">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-4 col-xs-offset-4">
+        <img src="assets/img/burger.gif" width="200px" height="200px" alt="burger image">
+        <h3>Eat-Da-Burger!</h3>
+      </div>
+    </div>
+  </div>
+</div>
 
-<h1>Here I am!</h1>
+
+<div class="container">
+
+  <div class="row">
+
+    <div class="col-xs-4 col-xs-offset-1">
+      <div id="div-not-devoured-container">
+        {{#each burgers}}
+          {{#unless devoured}}
+            <div class="div-burger-not-devoured">
+              <p class="p-burger-not-devoured">{{this.burger_name}}</p>
+              <button class="button-burger-not-devoured">Devour It!</button>
+            </div>
+          {{/unless}}
+        {{/each}}
+      </div>
+    </div>  
+    
+    <div class="col-xs-4 col-xs-offset-1">
+      <div id="div-devoured-container"></div>
+    </div>     
+
+  </div>  
+
+
+  <div class="row">
+    <div class="col-xs-4 col-xs-offset-4">
+      <div id="div-form">
+        <form class="add-burger-form">
+          <input type="text" name="new-burger" id="burger-text">
+          <button type="submit">Add Burger</button>
+        </form>
+      </div>
+      <br>
+      <p>Enter a burger you would like to eat and hit submit button</p>
+    </div>
+  </div>  
+
+</div>  
