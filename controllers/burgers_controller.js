@@ -20,4 +20,33 @@ router.get("/", function(req, res) {
   });
 });
 
+router.post("/api/burgers", function(req, res) {
+  console.log(req.body);
+
+  //run the query against the model
+  burger.insertOne("burger_name", req.body.name, function(result) {
+    res.json({id : result.insertedId});
+  });
+});
+
+router.put("/api/burgers/:id", function(req, res) {
+  console.log("the server caught the put request!!!");
+  var whereCondition = `id = ${req.params.id}`;
+
+  console.log("where condition : " + whereCondition);
+
+  //run the query against the model
+  burger.updateOne("devoured", true, whereCondition, function(result) {
+    //console.log(result);
+    //if no rows were changed, return status 404
+    if(result.changedRows == 0) {
+      return res.status(404).end();
+    } 
+    //else return status 200
+    else {
+      res.status(200).end();
+    }
+  });
+});
+
 module.exports = router;
