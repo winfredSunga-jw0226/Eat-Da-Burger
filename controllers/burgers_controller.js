@@ -8,13 +8,14 @@ var router = express.Router();
 
 // //Let's create all of our routes for the app
 router.get("/", function(req, res) {
-
+  console.log('router working')
   burger.selectAll(function(data) {
     console.log(data);
     //assign the data coming from the db into an object variable
     var burgerObject = {
       burgers : data
     };
+    console.log('serving index page')
     //render the html using the index template, passing data along with the response
     res.render("index", burgerObject);
   });
