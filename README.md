@@ -1,7 +1,7 @@
 # Eat-Da_Burger!
 
 ### Overview
-Eat-Da_Burger! is a simple, fun restaurant app that lets users input the names of burgers they'd like to eat. THe user devours the burger by a click of a button, which moves the burger to the right side of the page.
+Eat-Da-Burger! is a simple, fun restaurant app that lets users input the names of burgers they'd like to eat. THe user devours the burger by a click of a button, which moves the burger to the right side of the page.
 
 ### Instructions
 1. Enter the name of the burger you wish to eat on the input text box
@@ -12,6 +12,8 @@ Eat-Da_Burger! is a simple, fun restaurant app that lets users input the names o
 6. Devoured burgers will move to the right side of the page
 
 ### Demo
+
+![Eat-Da-Burger Demo](public/assets/img/burger_demo.mp4)
 
 ## Its your turn to play
 Want to play the app yourself? Please click on this link - 
