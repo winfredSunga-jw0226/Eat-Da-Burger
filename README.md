@@ -15,7 +15,7 @@ Eat-Da-Burger! is a simple, fun restaurant app that lets users input the names o
 
 ![Eat-Da-Burger Demo](public/assets/img/burger_demo.mp4)
 
-## Its your turn to play
+### It's your turn to play
 Want to play the app yourself? Please click on this link - 
 [Eat-Da-Burger App](https://secure-thicket-28978.herokuapp.com/)
 
