@@ -26,7 +26,15 @@ This app is powered by
 * Javascript
 * Node.js
 * Express.js
+* NPM
 * Handlebars
 * RESTful Routing
 * MVC Design Pattern
+
+NPM Packages Used
+* [body-parser](https://www.npmjs.com/package/body-parser)
+* [mysql](https://www.npmjs.com/package/mysql)
+* [express](https://www.npmjs.com/package/express)
+* [express-handlebars](https://www.npmjs.com/package/express-handlebars)
+
 
